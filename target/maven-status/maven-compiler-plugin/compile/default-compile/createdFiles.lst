@@ -1,0 +1,7 @@
+com\javatechie\KafkaSchemaRegistryApplication.class
+com\javatechie\controller\EventController.class
+com\javatechie\dto\Employee.class
+com\javatechie\config\KafkaConfig.class
+com\javatechie\producer\KafkaAvroProducer.class
+com\javatechie\consumer\KafkaAvroConsumer.class
+com\javatechie\dto\Employee$Builder.class
