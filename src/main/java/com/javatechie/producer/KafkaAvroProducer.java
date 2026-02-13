@@ -27,7 +27,7 @@ public class KafkaAvroProducer {
                 System.out.println("Sent message=[" + employee +
                         "] with offset=[" + result.getRecordMetadata().offset() + "]");
             } else {
-                System.out.println("Unable to send message=[" +
+                System.out.println("Unable to send messages=[" +
                         employee + "] due to : " + ex.getMessage());
             }
         });
